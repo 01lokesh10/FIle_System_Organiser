@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "ChildProcess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "bin": {
+    "pep": "main.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {},
+  "description": "<!-- Task List -->\r - Help  ✅\r - Organise  ✅\r - Tree  ✅\r - Global  ✅\r - Cover some good practice  ✅"
+}
