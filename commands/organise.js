@@ -73,21 +73,17 @@ function sendFiles(src, dest, category) {
     let fileName = path.basename(src);
     let destFilePath = path.join(subFolder, fileName);
     fs.copyFileSync(src, destFilePath);
-    // console.log(fileName, " copied to ", category);
+    fs.unlinkSync(src);
+    console.log(fileName, " copied to ", category);
 }
 
 function getCategory(name) {
     let ext = path.extname(name);
     ext = ext.slice(1); // to remove .(dot)
-    // console.log(ext);
     for (let type in types) {
         let cTypesArr = types[type];
-        console.log(cTypesArr);
-        console.log(cTypesArr.length);
         for (let i = 0; i < cTypesArr.length; i++) {
-            // console.log(i);
             if (ext == cTypesArr[i]) {
-                // console.log(type);
                 return type;
             }
         }
