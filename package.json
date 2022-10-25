@@ -9,6 +9,7 @@
   "license": "ISC",
   "keywords": [],
   "bin": {
+    "wcat": "wcat.js",
     "pep": "main.js"
   },
   "dependencies": {
@@ -16,5 +17,13 @@
     "figlet": "^1.5.2"
   },
   "devDependencies": {},
-  "description": "<!-- Task List -->\r - Help  ✅\r - Organise  ✅\r - Tree  ✅\r - Global  ✅\r - Cover some good practice  ✅"
+  "description": "<!-- Task List -->\r - Help  ✅\r - Organise  ✅\r - Tree  ✅\r - Global  ✅\r - Cover some good practice  ✅",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01lokesh10/FIle_System_Organiser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/01lokesh10/FIle_System_Organiser/issues"
+  },
+  "homepage": "https://github.com/01lokesh10/FIle_System_Organiser#readme"
 }
